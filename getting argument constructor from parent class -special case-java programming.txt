@@ -1,0 +1,31 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+       Second s=new Second(10); 
+    }
+}
+
+class First 
+{
+    First()
+    {
+        System.out.println("printing first text here");
+    }
+    First(int a)
+    {
+        System.out.println("printing first argument text here");
+    }
+}
+class Second extends First
+{
+    Second()
+    {
+        System.out.println("printing second text here");
+    }
+     Second(int a)
+    {
+        super(10);
+        System.out.println("printing second argument text here");
+    }
+}

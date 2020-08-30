@@ -1,0 +1,26 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+       secondsample s=new secondsample();
+       sample s1=new sample();
+       s1.displaying(s);
+    }
+}
+
+class sample 
+{
+    void displaying(secondsample b)
+    {
+        b.display();
+    }
+}
+
+class secondsample 
+{
+    void display()
+    {
+        System.out.println("printing text here");
+    }
+    
+}

@@ -1,0 +1,29 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+      sample s1=new sample();
+      sample s2=new sample();
+      s1.a=70;
+      s1.b=60;
+      s2.a=50;
+      s2.b=35;
+      System.out.println(s1.a);
+      System.out.println(s1.b);
+      System.out.println(s2.a);
+      System.out.println(s2.b);
+      s1.display();
+    
+    }
+}
+
+class sample 
+{
+    int a;
+    int b;
+    void display()
+    {
+        System.out.println("printing value in a:");
+        System.out.println(a);
+    }
+}

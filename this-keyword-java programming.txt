@@ -1,0 +1,21 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+       sample s=new sample(10,8); 
+    }
+}
+
+class sample 
+{
+    int a;
+    int b;
+    sample(int a,int b)
+    {
+        this.a=a;
+        this.b=b;
+        System.out.println("this.a:"+this.a+" "+"this.b:"+this.b);
+    }
+    
+    
+}

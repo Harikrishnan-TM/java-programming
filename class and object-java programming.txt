@@ -1,0 +1,22 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        sample s1=new sample();
+        sample s2=new sample();
+        s1.a=90;
+        s1.b=70;
+        s2.a=50;
+        s2.b=20;
+        System.out.println(s1.a);
+        System.out.println(s1.b);
+        System.out.println(s2.a);
+        System.out.println(s2.b);
+    }
+}
+
+class sample 
+{
+    int a;
+    int b;
+}

@@ -1,0 +1,32 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        sample s1=new sample();
+        sample s2=new sample();
+        s1.a=40;
+        s1.b=80;
+        s2.a=30;
+        s2.b=10;
+        s1.calculatesum();
+        s1.display();
+        
+        
+    }
+}
+
+class sample 
+{
+    int a;
+    int b;
+    int c;
+    void calculatesum()
+    {
+        c=a+b;
+    }
+    void display()
+    {
+        System.out.println("sum:"+c);
+    }
+    
+}

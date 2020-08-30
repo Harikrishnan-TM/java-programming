@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args)
+    {
+        First s=new First();
+        s.sample();
+    }
+}
+
+class First 
+{
+    void sample()
+    {
+      second s=new second();
+      s.display();
+    }
+}
+
+class second 
+{
+    void display()
+    {
+        System.out.println("printing here");
+    }
+}

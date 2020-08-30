@@ -1,0 +1,15 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        display s=new display();
+    }
+}
+
+class display 
+{
+    display()
+    {
+        System.out.println("printing here");
+    }
+}

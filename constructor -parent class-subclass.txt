@@ -1,0 +1,22 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+       Second s=new Second(); 
+    }
+}
+
+class First 
+{
+    First()
+    {
+        System.out.println("printing first text here");
+    }
+}
+class Second extends First
+{
+    Second()
+    {
+        System.out.println("printing second text here");
+    }
+}

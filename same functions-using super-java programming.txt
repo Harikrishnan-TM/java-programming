@@ -1,0 +1,37 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        Second s=new Second();
+        
+        s.sample();
+    }
+}
+
+class First 
+{
+    void display()
+    {
+        int a;
+        System.out.println("printing first text here");
+    }
+}
+
+class Second extends First 
+{
+   int a;
+    void display()
+    {
+      
+        System.out.println("printing second text here");
+    }
+    
+    void sample()
+    {
+        display();
+        super.display();
+        
+    }
+
+    
+}
